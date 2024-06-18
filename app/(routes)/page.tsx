@@ -1,11 +1,7 @@
 import { Button } from "antd";
 
 const RootPage = () => {
-	return (
-		<main>
-			<Button>Hello World</Button>
-		</main>
-	);
+    return <main></main>;
 };
 
 export default RootPage;

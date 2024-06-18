@@ -1,10 +1,12 @@
 import { theme } from "antd";
 
 export const themeConfig = {
-	token: {
-		// Seed Token
-		colorPrimary: "#FF0066",
-		borderRadius: 8,
-		fontSize: 14,
-	},
+    token: {
+        // Seed Token
+        colorPrimary: "#13C2C2",
+        colorTextBase: "#262626",
+        colorBorder: "#D9D9D9",
+        borderRadius: 8,
+        fontSize: 14,
+    },
 };
