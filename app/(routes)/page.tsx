@@ -1,7 +1,8 @@
-import { Button } from "antd";
+import { redirect } from "next/navigation";
 
-const RootPage = () => {
-    return <main></main>;
+const RootPage = async () => {
+	redirect("/auth");
+	return <main></main>;
 };
 
 export default RootPage;
